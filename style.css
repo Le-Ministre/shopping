@@ -1,0 +1,286 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: antiquewhite;
+}
+header{
+ background: url(/image/adam.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+ul li a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+ul {
+   list-style: none;
+}
+.divHaut{
+  position: absolute;
+  left: 86.6%;
+  top: 41px;
+  padding: 15px;
+  background-color: antiquewhite;
+} 
+.divVide img{
+  width: 50px;
+  border-radius: 50%;
+}
+.les-achats{
+  display: flex;
+  justify-content: space-between;
+}
+.plus{
+  cursor: pointer;
+}
+.moins{
+  cursor: pointer;
+}
+.divVide i {
+    margin-left: 10px;
+}
+.achats{
+  padding: 10px;
+}
+.divTotal{
+  text-align: center;
+}
+.clear{
+width: 110px;
+height: 35px;
+background-color: bisque;
+color: black;
+border-radius: 3px;
+border-color: black;
+cursor: pointer;
+}
+.clear:hover{
+  background-color: black;
+  color: #fff;
+}
+.checkou{
+  width: 110px;
+height: 35px;
+background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+border-radius: 3px;
+border-color:rgb(255, 0, 38);
+cursor: pointer;
+}
+.checkou:hover{
+  background-color: rgb(233, 10, 10);
+  color: black;
+}
+.btn{
+  border: 1px solid red;
+  margin-right: 25px;
+  width: 170px;
+}
+
+.lentete{
+  display: flex;
+ 
+} 
+.to1{
+  color: #fff;
+  font-size: 30px;
+  margin-top: 8px;
+}
+.to2{
+  color:orange ;
+}
+.explore{
+ width: 140px;
+ height: 40px;
+ font-family:fantasy;
+ font-size: 25px;
+ border-color: 2px solid black;
+ border-radius: 3px;
+ background: transparent;
+ cursor: pointer;
+ 
+}
+.explore:hover{
+  background-color: chocolate
+}
+.boss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  height: 800px;
+}
+.bando{
+  height: 700px;
+}
+
+.Lorem{
+  position: relative;
+  width: 800px;
+  right: 270px;
+  font-size: 30px;
+}
+.strong1{
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.strong2{
+  font-size: 50px;
+  color: chocolate;
+  font-family:fantasy;
+}
+.lora{
+  font-family: 'Times New Roman', Times, serif;
+}
+.recherche{
+  margin-top: 50px;
+} 
+.recherche{
+  position: relative;
+  left: 650px;
+  width: 525px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+} 
+.icone1{
+ font-size: 22px;
+ 
+} 
+#search{
+ width: 490px;
+  border: none;
+  margin-right: -10px;
+
+} 
+.dogo{
+ width: 100%;
+}
+.dogo:hover{
+  transform: scale(1.05);
+}
+.shopp{
+  position: relative;
+  left: 205px;
+  color: aqua;
+  font-size: 40px;
+  display: none;
+}
+.imagediv{
+  overflow: hidden;
+}
+.store{
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+ 
+}
+.lesButton{
+  display: flex;
+  justify-content: center;
+}
+.btns{
+  margin-right: 50px;
+  width: 130px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid coral;
+}
+.btns:hover{
+  background-color: coral;
+  color: #fff;
+}
+
+ 
+.container{
+  max-width: 1440px;
+  padding: 10px;
+  margin: auto;
+  justify-content: space-between;
+}
+.leBas{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 50px;
+}
+.produits{
+ 
+}
+.section1{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 30px;
+  grid-row-gap: 30px;
+  width: 100%;
+  transition: .3s;
+}
+
+.premiereImage{
+  overflow: hidden;
+}
+.star{
+  font-size: 1.5rem;
+}
+.select{
+  color: gold ;
+}
+.payer{
+  width: 40px;
+  font-size: 30px;
+  color: aquamarine;
+  cursor: pointer;
+}
+/* .section1 .premiereImage{
+  border-radius: 3px;
+  background-color: bisque;
+}
+.section2 .deuxiemeImage{
+  max-width: 340px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #0666;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: bisque;
+}
+.section3 .troisiemeImage{
+  max-width: 340px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #0666;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: bisque;
+}
+.section4 .quatriemeImage{
+  max-width: 340px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #0666;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: bisque;
+} */
